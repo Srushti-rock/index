@@ -1,0 +1,189 @@
+body{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+/*navigation*/
+.big-wrapper{
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5)0%,rgba(0,0,0,0.5)100%), url("../image/banner.jpg");
+}
+#my-navigation{
+    position: relative;
+    top: 30px;
+    color: #fff;
+    background: none;
+    border: 0;
+}
+#my-navigation a{
+    color: #fff;
+    font-size: 15px;
+}
+.big-wrapper hr{
+    margin-top: 60px;
+}
+#my-navigation .navbar-toggle .icon-bar{
+    background-color: #fff;
+    border-color: #fff;
+}
+/**/
+.my-button{
+    font-size: 12px;
+    padding: 10px 50px;
+    border-radius: 30px;
+    color: lightgreen;
+    border: 3px solid lightgreen;
+    background: none;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+/**/
+/*banner*/
+.banner{
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    color: #fff;
+}
+.banner h1{
+    font-weight: 500;
+    padding: 30px 0;
+    font-size: 50px;
+}
+.custom-row .span .fa{
+    font-size: 30px;
+    padding: 10px;
+    color: lightgreen;
+}
+.custom-row .span p{
+    color: gray;
+}
+.custom-row .border{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.custom-row{
+    margin-bottom: 30px;
+}
+.banner .my-button{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+/**/
+/*two-section*/
+.two-section{
+    padding: 100px 0px;
+}
+.two-section h3{
+    width: 35%;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+.two-section p{
+    width: 60%;
+    line-height: 25px;
+    color: grey;
+    margin: 0 auto;
+}
+.two-section .my-button{
+    margin-top: 20px;
+}
+/**/
+/*form start*/
+.formsection{
+    background-color: lightgreen;
+    color: #fff;
+    padding: 90px 0;
+}
+.formation{
+    margin-bottom: 25px;
+}
+.formsection .container h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.formation .form-group-1{
+    width: 50%;
+    float: left;
+}
+.formation .form-group-2{
+    width: 50%;
+}
+.form-group{
+    text-align: left;
+}
+.form-group-2 .shift{
+    margin-left: 30px;
+}
+.form-group #Message{
+    background: none;
+    height: 150px;
+    border: 1px solid ghostwhite;
+}
+.form-group #name, .form-group #email-id{
+    background: none;
+    width: 95%;
+    height: 40px;
+    border: 1px solid ghostwhite;
+}
+.form-group #email-id{
+    margin-left: 30px;
+}
+.container .button{
+    
+    border: 2px solid white;
+    color: #fff;
+    border-radius: 30px;
+    background: none;
+    font-size: 12px;
+    padding: 10px 50px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.container p{
+    font-size: 12px;
+}
+/**/
+/*media query*/
+
+
+@media (max-width:1200px) {
+    .twoimage{
+        margin-top: 30px;
+    }
+}
+
+
+@media (max-width:800px){
+    .container .editing{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .form-group-3{
+        width: 95%;
+    }
+}
+
+
+@media (max-width:750px) {   
+    .two-section .twoimage1{
+        margin-bottom: 30px;
+    }
+    .formsection{
+        width: 100%;
+    }
+    .formation .form-group-1{
+        width: 100%;
+        float: none;
+    }
+    .formation .form-group-2{
+        width: 100%;
+    }
+    .form-group #email-id{
+        margin-left:0;
+    }
+    .form-group-2 .shift{
+        margin-left: 0;
+    }
+    .custom-row .border{
+        border-left: 0;
+        border-right: 0;
+    }
+}
